@@ -1,0 +1,12 @@
+__pycache__
+assets
+Data
+extractions
+scripts
+venv
+DashApp.ipynb
+DashApp.py
+Dashboard.pbix
+DashboardAnonimized.pbix
+DBCredentials.json
+SQL_Script
