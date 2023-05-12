@@ -13,9 +13,7 @@ import googleapiclient.errors
 from googleapiclient.discovery import build
 
 import json
-
 import mysql.connector
-
 import re
 
 # Reading All Credentials
@@ -520,7 +518,11 @@ for channel_name in list_of_channels:
 file_name = 'Extraction_' + str( np.datetime64('today') ) + '.xlsx'
 FRAMES = [ dict_insert['channel_details'], dict_insert['channel_evolution'], extr['video_statics'], extr['video_variables'] ]
 
+# Dumping to disk in an excel file
 pandas_to_excel_sheets(FRAMES, ['channel_details', 'channel_evolution', 'video_statics', 'video_variables'], file_name)
+
+# NOTE: You can comment out the following two commands since it is for sending the file over email,
+# It could be not required for your usecase.
 
 # Creating email parameters | Watch out for directory!!
 subject = 'Extraction at ' + str(np.datetime64('now')).replace('T', ' ')
