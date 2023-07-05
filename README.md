@@ -11,6 +11,6 @@ A description of each file in the Directory:
 * _reads_extractions_uploadsDB.ipynb_: contains all the processes to mass upload daily extractions into the database.
 * _DashboardQuery.ipynb_: Creates the modeled sources for the Dashboards to use.
 * _AnonDashAPP.py_: script to create the dash app.
-* _Dashboards Preview_: This folder contails a preview on the dashboards, later I will share a video with the capabilities of these solutions and the link will be made available on this document and in my [twitter](https://twitter.com/maikimaiki23).
+* _Dashboards Preview_: This folder contails a preview on the dashboards, [here](https://www.youtube.com/watch?v=A2m_oNmgsOghttps://www.youtube.com/watch?v=A2m_oNmgsOg) is a video with the capabilities of these solutions.
 
 For more details on how this repository came to be, and some interesting insights, I've written articles that you can find in my [substack](https://amathematicianthinks.substack.com/).
